@@ -2,5 +2,7 @@
 
 # Designed to be run from root
 
-chmod +x shell/git-pre-commit
-ln -s ../../shell/git-pre-commit .git/hooks/pre-commit
+script="vendor/m1ke/git-php-lint/shell/git-pre-commit"
+
+chmod +x $script
+ln -s ../../$script .git/hooks/pre-commit
