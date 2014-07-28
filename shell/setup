@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Designed to be run from root
+
+chmod +x shell/git-pre-commit
+ln -s ../../shell/git-pre-commit .git/hooks/pre-commit
