@@ -2,7 +2,7 @@
 
 Require this with composer:
 
-    php composer.phar require --dev m1ke/git-php-lint:dev-master
+    php composer.phar require --dev m1ke/git-php-lint:1.0.0
 
 Unfortunately this uses the `post-install-cmd` script in composer, which doesn't trigger for required dependencies. Once you've updated your packages run:
 

@@ -1,6 +1,7 @@
 {
     "name": "m1ke/git-php-lint",
     "description": "Easily lint PHP files when commiting",
+    "version":"1.0.0",
     "license": "MIT",
     "scripts": {
         "post-install-cmd": [
